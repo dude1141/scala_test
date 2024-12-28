@@ -1,0 +1,58 @@
+import java.util
+import scala.::
+import scala.collection.mutable
+//Mutalble are mutable, index start with 0
+//List are immutable.
+//tuple heterogenous and immultable, index starts with 1
+// set are mutale and immutable
+
+
+
+val greets=Array.apply("welcom","__to","scal-expresss")
+//println(greet.apply(0))
+//println(greet.apply(1))
+
+//greets.foreach(print)
+
+for (i <- 0 .to (2)) {
+  println("greet####...", greets.apply(i))
+}
+
+val opnes=List(1,2,3)
+//opnes::(2,3)
+
+print(opnes)
+
+val tups=("abc",1,"oiu")
+println(tups._1)
+
+
+var sets = Set("1", 2, "abc")
+sets += "black"
+
+println(sets)
+
+
+//hashsets.
+val sets2=mutable.HashSet("Aango","Vongo","Dengo","Zango")
+sets2 += "Mango"
+println("sets2...>",sets2)
+
+
+
+import scala.collection.mutable.Map
+val countries= Map[Int, String]()
+
+countries += (1 -> "India")
+//countries.foreach(print)
+
+
+countries += (2 -> "Africa")
+//countries.foreach(print)
+
+//print(countries(2))
+
+val alpahbets=Map(1 -> "A", 2 -> "B", 3 -> "4")
+alpahbets.foreach(print)
+
+
