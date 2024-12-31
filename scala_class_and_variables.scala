@@ -1,6 +1,6 @@
 
  class test2(private var x:Int,private var y:Int) {
- // In this example, (var firstName: String, var lastName: String) is the parameter list of the primary constructor
+ // In this example, (var x: Int, var y: Int) is the parameter list of the primary constructor
   import test2._
   def method1(p: Int, q: Int) = {
     val r = p + q
