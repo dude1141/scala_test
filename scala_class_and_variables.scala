@@ -3,7 +3,7 @@
  // In this example, (var x: Int, var y: Int) is the parameter list of the primary constructor
   import test2._
   def method1(p: Int, q: Int) = {
-    val r = p + q   #local variables, p and q are method params
+    val r = p + q   //local variables, p and q are method params
     println("r...>>>>", r)
   }
 
