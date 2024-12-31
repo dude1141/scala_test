@@ -12,6 +12,9 @@
 object test2 {   //test2 is companion object in scala
   val x1: Int = 100 // static variable
 }
+
+// here object and class are having same name test2 are companion objects
+
 object Main extends  App {  // to run we must define main or extends App
 
   val n1=new test2(10,20)
